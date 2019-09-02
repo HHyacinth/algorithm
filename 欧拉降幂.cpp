@@ -40,3 +40,4 @@ int Calc(int a,int b,int p)///b个a的组成的幂对p取模
     int t=getPhi(p);
     return qPow(a,Calc(a,b-1,t),p);
 }
+[2019ICPC南京网络赛B](https://nanti.jisuanke.com/t/41299)
